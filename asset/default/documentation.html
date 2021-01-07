@@ -1,0 +1,25 @@
+{partial header}
+<div class="main container-full">
+  <aside class=" ">
+    <nav class="main-menu-side">
+      {partial navbar site.menu.main}
+      <hr />
+    </nav>
+    {render "site.menu.aside"}
+  </aside>
+  <main>
+    {if site.language == "de" } {= site.language }
+    <h2 style="color: red">
+      This is the documentation of Mempad for Windows in German, not the one for
+      this CMS. It is only here for testing the mutilingual features and that
+      importing a mempad file is working.
+    </h2>
+    {/if}
+    <div style="float: right">
+      <h1>plop</h1>
+      {submenu "documentation" 2}
+    </div>
+    {= page.content}
+  </main>
+</div>
+{partial footer}

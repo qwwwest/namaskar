@@ -1,0 +1,7 @@
+{foreach item in $CONTEXT} {if item.active}
+<a href="{= item.url}" class="active">
+  {= item.label} <span class="sr-only">(current)</span>
+</a>
+{else}
+<a href="{= item.url}">{= item.label}</a>
+{/if} {/foreach}
