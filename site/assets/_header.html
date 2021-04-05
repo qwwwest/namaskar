@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{= site.language}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {= site.meta}
+    <title>{= page.title}</title>
+    <!-- not minified so you can check it. ^^ -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/lightgallery.min.css" rel="stylesheet" />
+    <link href="assets/css/lg-transitions.min.css" rel="stylesheet" />
+    <link href="assets/css/namaskar.css" rel="stylesheet" />
+    <link href="assets/css/{= site.domain}.css" rel="stylesheet" />
+
+    <style></style>
+    {if site.ajaxify }
+    <script src="assets/js/ajaxify.min.js"></script>
+    {/if}
+  </head>
+  <body{if page.body.class} class="{= page.body.class }"{/if}> {partial navbar
+  site.menu.main}
+</html>

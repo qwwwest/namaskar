@@ -1,0 +1,50 @@
+
+ {partial header}
+
+    
+{# partial breadcrumb page.path}
+<main class="container{if page.container.full}-full{/if}">
+<div id="background">
+  <div id="backgrounds">
+    {if page.bg.img}
+    <img src="media/img/{= page.bg.img}" class="{= page.bg.class}">
+    {/if}
+    
+    {if page.background}
+     {= page.background} 
+    {/if}
+  </div> 
+  <div id="bgcolor" style="background-color: {= site.bgcolor}"></div>
+
+</div>
+{if page.body.class == "namaskar"}
+<div id="content" class="row">
+  <div class="col-12 col-md-3">
+  
+    {img "namaskar-logo.svg" "namaskar" style="width:100px;margin: 8px;background-color:white;border-radius:16px;"}
+  <aside class="sticky">
+    <h3>Namaskar CMS</h3>
+  {sidemenu namaskar}</aside>
+  </div>
+  <div  class="col-12 col-md-9">
+    {= page.content}
+  </div>
+</div>
+
+{else}
+  <div id="content">{= page.content}</div>
+{/if}
+</main>
+
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/lightgallery-all.min.js"></script>
+<script src="assets/js/microlight.min.js"></script>
+<script src="assets/js/vivus.min.js"></script>
+<script src="assets/js/{= site.domain}.js"></script>
+<script src="assets/js/namaskar.js"></script>
+
+ 
+
+  </body>
+</html>
