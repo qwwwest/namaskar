@@ -3,8 +3,8 @@ TRANSFORM YOUR IDEAS INTO WEBSITES
  
 Namaskar CMS is a lightweight CMS for simple websites like showcase sites, Artist Websites, Portfolios, and blogs.
 
-![Namaskar Frontend](media/img/namaskar-frontend.jpg)
-![Namaskar Backend](media/img/namaskar.png)
+![Namaskar Frontend](site/media/img/namaskar-frontend.jpg)
+![Namaskar Backend](site/media/img/namaskar.png)
 
 demo available at [http://qwwwest.com/namaskar](http://qwwwest.com/namaskar)
 backend admin login: **demo** and password: **demo** 
