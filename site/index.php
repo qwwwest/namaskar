@@ -10,4 +10,4 @@ $USER =  [
     "adminPage" => "admin",
 ];
 
-require_once '../_path.to.cms.core/namaskar/start.php';
+require_once '../_namaskar/start.php';
