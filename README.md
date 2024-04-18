@@ -1,3 +1,8 @@
+This is the **old** version from 2019... 
+I keep it here as a souvenir... ^^
+Go and see the latest version here:
+https://github.com/qwwwest/namaskar-cms
+
 TRANSFORM YOUR IDEAS INTO WEBSITES
 ==================================
  
